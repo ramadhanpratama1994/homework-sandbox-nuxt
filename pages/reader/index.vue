@@ -82,7 +82,7 @@ export default {
         },
         removeValueBooks(index) {
             swal({
-                text: "Anda yakin ingin menghapusnya?",
+                text: "Anda yakin ingin menghapus " + this.books[index] + "?",
                 buttons: true
             })
             .then((books) => {
@@ -93,7 +93,7 @@ export default {
         },
         removeValueReaders(index) {
             swal({
-                text: "Anda yakin ingin menghapusnya?",
+                text: "Anda yakin ingin menghapus " + this.readers[index] + "?",
                 buttons: true
             })
             .then((readers) => {
@@ -104,7 +104,7 @@ export default {
         },
         removeSelect(index) {
             swal({
-                text: "Anda yakin ingin menghapusnya?",
+                text: "Anda yakin ingin menghapus " + this.selectLists[index] + "?",
                 buttons: true
             })
             .then((selectLists) => {
